@@ -1,0 +1,43 @@
+body{
+    background-color: #fff;
+}
+/* site name a tag */
+a.a-site-main{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+/* end of name a tag */
+/* nav bar brand name */
+.main-nav {
+    display: flex;
+    align-items: stretch;
+    background-color: #ffffff;
+ }
+  .main-nav > div {
+    background-color: #ffffff;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  .main-nav > div.nav-main-text{
+      margin-left: 250px;
+  }
+  .main-nav > div.main-nav-menus{
+    margin-left: 95px;
+}
+  .main-nav > div.other-nav-menus{
+    margin-left: 395px;
+}
+/* end of brand nav bar */
+/* note hard coded write now will fix later */
+
+
+
+
+
+
+
+  
