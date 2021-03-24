@@ -16,23 +16,54 @@ a.a-site-main{
  }
   .main-nav > div {
     background-color: #ffffff;
-    width: 200px;
+    width: 400px;
     margin: 10px;
     text-align: center;
     line-height: 75px;
     font-size: 30px;
   }
   .main-nav > div.nav-main-text{
-      margin-left: 250px;
+    flex-grow: 1;
   }
   .main-nav > div.main-nav-menus{
-    margin-left: 95px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
 }
   .main-nav > div.other-nav-menus{
-    margin-left: 395px;
+    /* margin-left: 395px; */
+    width: 250px;
+}
+.main-nav > div.icon-nav-menus{
+  flex: 1;
+  margin-right: 250px;
 }
 /* end of brand nav bar */
 /* note hard coded write now will fix later */
+/* main nav menu */
+.main-nav-menus .nav-main-itmes {
+  display: block;
+  color: #333;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.main-nav-menus a:hover {
+  background-color: #333;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.main-nav-menus .icon {
+  display: none;
+}
+a.nav-main-itmes{
+  font-weight: bold;
+  width: 20%;
+}
+
+
 
 
 
