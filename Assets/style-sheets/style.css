@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 body{
     background-color: #fff;
 }
@@ -16,27 +17,46 @@ a.a-site-main{
  }
   .main-nav > div {
     background-color: #ffffff;
-    width: 400px;
-    margin: 10px;
     text-align: center;
     line-height: 75px;
     font-size: 30px;
   }
+  a.a-site-main{
+    font-family: 'Bebas Neue', cursive;    /*font family from google fonts see in the import on line 1  */
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-weight: bolder;
+  }
   .main-nav > div.nav-main-text{
     flex-grow: 1;
+    padding-left: 8%;
   }
   .main-nav > div.main-nav-menus{
     display: flex;
     flex-grow: 1;
     justify-content: space-around;
+    align-self: center;
+    padding-right: 5%;
+    vertical-align: top;
+    padding-left: 3%;
 }
-  .main-nav > div.other-nav-menus{
-    /* margin-left: 395px; */
-    width: 250px;
+.main-nav > div.other-nav-menus{
+  display: flex;
+  flex-grow: 2;
+  justify-content: space-around;
+  align-self: center;
+  padding-left: 9%;
+  padding-right: 5%;
+  vertical-align: top;
 }
 .main-nav > div.icon-nav-menus{
-  flex: 1;
-  margin-right: 250px;
+  display: flex;
+  flex-grow: 2;
+  align-self: center;
+  padding-left: 8%;
+  padding-right: 20px;
+  vertical-align: top;
+  margin-right: 2%;
 }
 /* end of brand nav bar */
 /* note hard coded write now will fix later */
@@ -47,6 +67,15 @@ a.a-site-main{
   text-align: center;
   text-decoration: none;
   font-size: 17px;
+  margin-left: 15px;
+}
+.other-nav-menus .other-main-itmes {
+  display: block;
+  color: #333;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: 12px;
 }
 
 .main-nav-menus a:hover {
@@ -55,12 +84,21 @@ a.a-site-main{
   border-radius: 20px;
 }
 
+.other-nav-menus a:hover {
+  background-color: #333;
+  color: #fff;
+  border-radius: 20px;
+}
+
 .main-nav-menus .icon {
-  display: none;
+  display: flex;
+  Justify-content: space-around;
 }
 a.nav-main-itmes{
   font-weight: bold;
-  width: 20%;
+}
+a.other-main-itmes{
+  font-weight: bold;
 }
 
 
