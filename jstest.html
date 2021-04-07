@@ -15,7 +15,7 @@
     </section>
 
 
-    <style>
+    <!-- <style>
         html {
   font-family: 'helvetica neue', helvetica, arial, sans-serif;
 }
@@ -68,7 +68,7 @@ h2 {
     <script>
     const header = document.querySelector('header');
     const section = document.querySelector('section');
-    </script>
+    </script> -->
 
 
                     <!-- <div class="dropdown">
@@ -131,6 +131,237 @@ h2 {
                   <a href="#">Link 3</a>
                 </div>
               </div> -->
+
+
+
+
+              <!-- <div class="dropdown">
+                <a class="nav-main-itmes">Mobile</a>
+              </div>
+            <div class="dropdown">
+                <a class="nav-main-itmes">Contact</a>
+                <div class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Linsfddsfdsdsfdsfsk 3</a>
+                </div>
+              </div>
+            <div class="dropdown">
+                <a class="nav-main-itmes">Home Appliance</a>
+                <div class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                  <a href="#">Link 3</a>
+                  <a href="#">Link 3</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div>
+            <div class="dropdown">
+                <a class="nav-main-itmes">Computer</a>
+                <div class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                  <a href="#">Link 3</a>
+                  <a href="#">Link 3</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div>
+              <div class="dropdown">
+                <a class="nav-main-itmes">Display</a>
+                <div class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                  <a href="#">Link 3</a>
+                  <a href="#">Link 3</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div>
+            <div class="dropdown">
+                <a class="nav-main-itmes">Shop</a>
+                <div class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                  <a href="#">Link 3</a>
+                  <a href="#">Link 3</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div>
+        </div>
+            <div class="other-nav-menus">
+                <a class="other-main-itmes" href="#home" class="active">Home</a>
+                <a class="other-main-itmes" href="#news">News</a>
+                <a class="other-main-itmes" href="#contact">Contact</a>
+                <a class="other-main-itmes" href="#about">About</a>
+            </div> -->
+
+
+
+            <!-- .dropdown {
+              overflow: hidden;
+            }
+            .dropdown-content {
+              display: none;
+              position: absolute;
+              background-color: #f9f9f9;
+              box-shadow: rgb(211, 206, 206);
+              z-index: 1;
+              padding-bottom: 8%;
+              width: 100%;
+            }
+            
+            .dropdown-content a {
+              color: black;
+              padding: 12px 16px;
+              text-decoration: none;
+              display: block;
+              text-align: left;
+            
+            }
+            
+            .dropdown-content a:hover {
+              background-color: #f9f9f9;
+              color: black;
+            }
+            
+            .dropdown:hover .dropdown-content {
+              display: block;
+            } -->
+
+
+            <!-- <table>
+              <thead>
+              <tr>
+                  <th>name</th>
+                  <th>height</th>
+                  <th>place</th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                  <td>Monte Falco</td>
+                  <td>1658</td>
+                  <td>Parco Foreste Casentinesi</td>
+              </tr>
+              <tr>
+                  <td>Monte Falterona</td>
+                  <td>1654</td>
+                  <td>Parco Foreste Casentinesi</td>
+              </tr>
+              </tbody>
+          </table>
+
+          <script>
+
+            let mountains = [
+          { name: "Monte Falco", height: 1658, place: "Parco Foreste Casentinesi" },
+          { name: "Monte Falterona", height: 1654, place: "Parco Foreste Casentinesi" }
+        ];
+
+        let mountains = [
+  { name: "Monte Falco", height: 1658, place: "Parco Foreste Casentinesi" },
+  { name: "Monte Falterona", height: 1654, place: "Parco Foreste Casentinesi" },
+  { name: "Poggio Scali", height: 1520, place: "Parco Foreste Casentinesi" },
+  { name: "Pratomagno", height: 1592, place: "Parco Foreste Casentinesi" },
+  { name: "Monte Amiata", height: 1738, place: "Siena" }
+];
+
+function generateTableHead(table) {
+  let thead = table.createTHead();
+}
+
+
+function generateTableHead(table) {
+  let thead = table.createTHead();
+}
+
+let table = document.querySelector("table");
+generateTableHead(table);
+let mountains = [
+  { name: "Monte Falco", height: 1658, place: "Parco Foreste Casentinesi" },
+    //
+];
+function generateTableHead(table, data) {
+  let thead = table.createTHead();
+  let row = thead.insertRow();
+  for (let key of data) {
+    let th = document.createElement("th");
+    let text = document.createTextNode(key);
+    th.appendChild(text);
+    row.appendChild(th);
+  }
+}
+
+let table = document.querySelector("table");
+let data = Object.keys(mountains[0]);
+generateTableHead(table, data); -->
+</script>
+
+<script>
+generateTable(table, mountains)
+
+function generateTable(table, data) {
+  for (let element of data) {
+    let row = table.insertRow();
+    for (key in element) {
+      let cell = row.insertCell();
+      let text = document.createTextNode(element[key]);
+      cell.appendChild(text);
+    }
+  }
+}
+
+
+
+
+let mountains = [
+  { name: "Monte Falco", height: 1658, place: "Parco Foreste Casentinesi" },
+  { name: "Monte Falterona", height: 1654, place: "Parco Foreste Casentinesi" },
+  { name: "Poggio Scali", height: 1520, place: "Parco Foreste Casentinesi" },
+  { name: "Pratomagno", height: 1592, place: "Parco Foreste Casentinesi" },
+  { name: "Monte Amiata", height: 1738, place: "Siena" }
+];
+
+function generateTableHead(table, data) {
+  let thead = table.createTHead();
+  let row = thead.insertRow();
+  for (let key of data) {
+    let th = document.createElement("th");
+    let text = document.createTextNode(key);
+    th.appendChild(text);
+    row.appendChild(th);
+  }
+}
+
+function generateTable(table, data) {
+  for (let element of data) {
+    let row = table.insertRow();
+    for (key in element) {
+      let cell = row.insertCell();
+      let text = document.createTextNode(element[key]);
+      cell.appendChild(text);
+    }
+  }
+}
+
+let table = document.querySelector("table");
+let data = Object.keys(mountains[0]);
+generateTableHead(table, data);
+generateTable(table, mountains);
+
+
+</script>
+
+
+
+
+
+
+
+            
 </body>
 <script src="Assets/style-sheets/test.js"></script>
 </html>

@@ -112,36 +112,23 @@ a.other-main-itmes{
   font-weight: bold;
 }
 /* drop down menu */
-.dropdown {
-  overflow: hidden;
-}
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  box-shadow: rgb(211, 206, 206);
-  z-index: 1;
-  padding-bottom: 8%;
+#myDIV {
   width: 100%;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+  padding: 250px;
   text-align: left;
-
+  background-color: rgb(160, 161, 160);
+  box-sizing: border-box;
+  box-shadow: 10px 0 80px 0px inset red;
+  transition: all 0.5s;
+  max-height: 0;
+  position: absolute;
+}
+#exit-drop{
+  margin-left: 100%;
+  width: 20px;
+  height: 20px;
 }
 
-.dropdown-content a:hover {
-  background-color: #f9f9f9;
-  color: black;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
 
 
 

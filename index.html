@@ -11,82 +11,36 @@
     <nav class="main-nav">
         <div class="nav-main-text"><a class="a-site-main" href="#main-text">SUPER BETTER TECH</a></div>
         <div class="main-nav-menus">
-            <a class="nav-main-itmes" href="#home" class="active">Home</a>
-            <div class="dropdown">
-                <a class="nav-main-itmes">Mobile</a>
-              </div>
-            <div class="dropdown">
-                <a class="nav-main-itmes">Contact</a>
-                <div class="dropdown-content">
-                  <a href="#">Link 1</a>
-                  <a href="#">Link 2</a>
-                  <a href="#">Linsfddsfdsdsfdsfsk 3</a>
-                </div>
-              </div>
-            <div class="dropdown">
-                <a class="nav-main-itmes">Home Appliance</a>
-                <div class="dropdown-content">
-                  <a href="#">Link 1</a>
-                  <a href="#">Link 2</a>
-                  <a href="#">Link 3</a>
-                  <a href="#">Link 3</a>
-                  <a href="#">Link 3</a>
-                  <a href="#">Link 3</a>
-                </div>
-              </div>
-            <div class="dropdown">
-                <a class="nav-main-itmes">Computer</a>
-                <div class="dropdown-content">
-                  <a href="#">Link 1</a>
-                  <a href="#">Link 2</a>
-                  <a href="#">Link 3</a>
-                  <a href="#">Link 3</a>
-                  <a href="#">Link 3</a>
-                  <a href="#">Link 3</a>
-                </div>
-              </div>
-              <div class="dropdown">
-                <a class="nav-main-itmes">Display</a>
-                <div class="dropdown-content">
-                  <a href="#">Link 1</a>
-                  <a href="#">Link 2</a>
-                  <a href="#">Link 3</a>
-                  <a href="#">Link 3</a>
-                  <a href="#">Link 3</a>
-                  <a href="#">Link 3</a>
-                </div>
-              </div>
-            <div class="dropdown">
-                <a class="nav-main-itmes">Shop</a>
-                <div class="dropdown-content">
-                  <a href="#">Link 1</a>
-                  <a href="#">Link 2</a>
-                  <a href="#">Link 3</a>
-                  <a href="#">Link 3</a>
-                  <a href="#">Link 3</a>
-                  <a href="#">Link 3</a>
-                </div>
-              </div>
+          <a class="nav-main-itmes" href="#home" class="active">Home</a>
+          <a class="nav-main-itmes" onmouseover="MobileDrop()" href="#other-3">Mobile</a>
+          <a class="nav-main-itmes" onmouseover="ContactDrop()" href="#other-3">Contact</a>
+          <a class="nav-main-itmes" onmouseover="ApplianceDrop()" href="#other-3">Home Appliance</a>
+          <a class="nav-main-itmes" onmouseover="ComputerDrop()" href="#other-3">Computer</a>
+          <a class="nav-main-itmes" onmouseover="DisplayDrop()" href="#other-3">Display</a>
+          <a class="nav-main-itmes" onmouseover="ShopDrop()" href="#other-3">Shop</a>
         </div>
-            <div class="other-nav-menus">
-                <a class="other-main-itmes" href="#home" class="active">Home</a>
-                <a class="other-main-itmes" href="#news">News</a>
-                <a class="other-main-itmes" href="#contact">Contact</a>
-                <a class="other-main-itmes" href="#about">About</a>
-            </div>
-        </div> 
         <div class="icon-nav-menus">
             <img src="Assets/Images/icons/search_black_36dp.svg" alt=""></img>
             <img src="Assets/Images/icons/shopping_cart_black_36dp.svg" alt=""></img>
             <img src="Assets/Images/icons/person_black_36dp.svg" alt=""></img>
         </div>   
     </nav>
-    <main>
+    <div class="dropdown">
+      <!-- dropdown 1 -->
+      <div id="myDIV">
+        <a id="#exit-drop" onclick="ShopDrop()" href="#other-3"><img src="Assets/Images/icons/close_black_24dp.svg" alt=""></img></a>
+        <div id="dropdown-content">
+          <!-- stuff -->
+        </div>
+        </div>
+      </div>
+      <main>
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+        </main>
 
-
-    </main>
 
     
 
 </body>
+<script src="Assets/scripts/scripts.js"></script>
 </html>
