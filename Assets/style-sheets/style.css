@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 body{
     background-color: #fff;
 }
@@ -71,6 +72,7 @@ a.a-site-main{
   text-decoration: none;
   font-size: 17px;
   margin-left: 15px;
+  font-family: 'PT Sans', sans-serif;
 }
 .main-nav-menus .nav-main-itmes-none{
   display: block;
@@ -201,7 +203,24 @@ a.other-main-itmes{
   width: 100%;
   height: 100%;
 }
-
+/* mobile gallery */
+.mobile-title{
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 40px;
+}
+.mobile-nav{
+  width: 50%;
+  border: 5px solid green;
+  height: 200px;
+  margin: auto;
+}
+.Second-moblie-page{
+  border: 5px solid green;
+  height: 400px;
+  margin: auto;
+  width: 40%;
+}
 
 
 
