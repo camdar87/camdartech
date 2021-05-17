@@ -210,17 +210,43 @@ a.other-main-itmes{
   font-size: 40px;
 }
 .mobile-nav{
-  width: 50%;
-  border: 5px solid green;
-  height: 200px;
-  margin: auto;
+    display: flex;
+    margin: auto;
+    align-self: center;
+    vertical-align: top;
+    width: 37%;
+}
+.mobile-nav-itmes{
+  text-decoration:  none;
+  color: #474747;
+  font-family: 'PT Sans', sans-serif;
+  margin-left: 40px;
+  margin-right: 10px;
+  font-size: 20px;
+  
+}
+p.mobile-nav-itmes:hover{
+  color: #828282;
 }
 .Second-moblie-page{
   border: 5px solid green;
   height: 400px;
   margin: auto;
-  width: 40%;
+  width: 30%;
 }
+.Title-mobile{
+  border: 5px solid green;
+  height: 50px;
+  margin: auto;
+  width: 40%;
+  margin-top: 20px;
+}
+.main-TV{
+  width: 100%;
+  background-color: #333;
+  height: 500px;
+}
+
 
 
 
