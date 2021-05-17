@@ -18,4 +18,14 @@ let dropdown = document.getElementById("myDIV-2");
   setTimeout(function(){ dropdown.style.display = "none"; }, 2000)
 }
 
+function MobileDrop() {
+  let dropdown = document.getElementById("myDIV");
+  dropdown.style.display = "none";
+}
+//mobile img and names
+
+
+
+
+
 
