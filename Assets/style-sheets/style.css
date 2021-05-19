@@ -224,6 +224,7 @@ a.other-main-itmes{
   margin-right: 10px;
   font-size: 20px; 
 }
+
 p.mobile-nav-itmes:hover{
   color: #828282;
 }
@@ -233,12 +234,20 @@ p.mobile-nav-itmes:hover{
   margin: auto;
   width: 30%;
 }
+.Second-m-img{
+  width: 100%;
+  height: 100%;
+}
 .Title-mobile{
   border: 5px solid green;
   height: 50px;
   margin: auto;
   width: 40%;
   margin-top: 20px;
+}
+.title-mobile-1{
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
 }
 .main-TV{
   width: 100%;
