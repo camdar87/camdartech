@@ -220,9 +220,10 @@ a.other-main-itmes{
   text-decoration:  none;
   color: #474747;
   font-family: 'PT Sans', sans-serif;
-  margin-left: 40px;
-  margin-right: 10px;
   font-size: 20px; 
+  align-items: center;
+  margin: auto;
+  font-weight: bold;
 }
 
 p.mobile-nav-itmes:hover{
@@ -233,6 +234,8 @@ p.mobile-nav-itmes:hover{
   height: 400px;
   margin: auto;
   width: 30%;
+  padding: 10px;
+  margin-top: 20px;
 }
 .Second-m-img{
   width: 100%;
@@ -254,6 +257,12 @@ p.mobile-nav-itmes:hover{
   background-color: #333;
   height: 500px;
 }
+/* for setting default of the page it will be underline on load */
+#M-item-1{    
+  text-decoration: underline;
+  border: dashed 4px black;
+}
+/* end for setting default of the page */
 
 
 
