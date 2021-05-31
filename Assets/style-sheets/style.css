@@ -146,7 +146,8 @@ a.other-main-itmes{
 }
 /* drop down content flexbox and side nav */
 .drop-down-content-1 {
-  display: flex;
+  /* display: flex; */
+  display: none;
   width: 100%;
   background-color: #f1f1f1;
   padding-bottom: 7%;
