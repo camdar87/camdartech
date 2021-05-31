@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Assets/style-sheets/style.css">
     <link rel="stylesheet" href="Assets/style-sheets/normalize.css">
+    <link rel="stylesheet" href="Assets/style-sheets/MobileView.css">
     <title>Main"name set to change"</title>
 </head>
 <body>
@@ -56,6 +57,17 @@
           </div>
       </div>
       <main>
+        <!-- for mobile view only -->
+        <div class="main-nav-menus">
+          <a class="nav-main-itmes" href="#home" class="active">Home</a>
+          <a class="nav-main-itmes" onmouseover="MobileDrop()" onmouseout="MobileOff()" href="#other-3">Mobile</a>
+          <a class="nav-main-itmes" onmouseover="ContactDrop()"   onmouseout="ContactTV()" href="#other-3">Contact</a>
+          <a class="nav-main-itmes" onmouseover="ApplianceDrop()" href="#other-3">Home Appliance</a>
+          <a class="nav-main-itmes" onmouseover="ComputerDrop()" href="#other-3">Computer</a>
+          <a class="nav-main-itmes" onmouseover="DisplayDrop()" href="#other-3">Display</a>
+          <a class="nav-main-itmes" onmouseover="ShopDrop()" href="#other-3">Shop</a>
+        </div>
+        <!-- end of mobile view -->
 
         <div class="center">
           <!-- <video controls>
