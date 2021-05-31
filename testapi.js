@@ -1,10 +1,10 @@
 const  ulRecent = document.getElementById("list-recent");
 
 
-fetch('https://raw.githubusercontent.com/camdar87/camdarweb/master/Public/Assets/jq.js?token=ANERO4KN23NZANV2JTJCX33AP6INY')
+fetch('https://gist.githubusercontent.com/camdar87/7322961bf2282d41641ace32786905a0/raw/860d430c19c1dd7ee0e918f9a0bf2e61ff43ac64/supertechsitedata')
 .then(res => res.json())
 .then(data => {
-    let recent_song = musicData['recent'];
+    let recent_song = musicData['MobileOne'];
     recent_song.forEach(track => {
         let li = document.createElement("li");
 
