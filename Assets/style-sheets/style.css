@@ -44,6 +44,12 @@ a.a-site-main{
     vertical-align: top;
     padding-left: 3%;
 }
+.main-nav-menus-mobile{
+  display: none;
+}
+.Side-menu-button{
+  display: none;
+}
 .main-nav > div.other-nav-menus{
   display: flex;
   flex-grow: 2;

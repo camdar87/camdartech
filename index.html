@@ -23,7 +23,8 @@
         <div class="icon-nav-menus">
             <img src="Assets/Images/icons/search_black_36dp.svg" alt=""></img>
             <img src="Assets/Images/icons/shopping_cart_black_36dp.svg" alt=""></img>
-            <img src="Assets/Images/icons/person_black_36dp.svg" alt=""></img>
+            <img class="responsive-mobile" src="Assets/Images/icons/person_black_36dp.svg" alt=""></img>
+            <img class="Side-menu-button" src="/Assets/Images/icons/menu_black_36dp.svg" alt=""></img>
         </div>   
     </nav>
     <div class="dropdown">
@@ -58,7 +59,7 @@
       </div>
       <main>
         <!-- for mobile view only -->
-        <div class="main-nav-menus">
+        <div class="main-nav-menus-mobile" class="sidenav">
           <a class="nav-main-itmes" href="#home" class="active">Home</a>
           <a class="nav-main-itmes" onmouseover="MobileDrop()" onmouseout="MobileOff()" href="#other-3">Mobile</a>
           <a class="nav-main-itmes" onmouseover="ContactDrop()"   onmouseout="ContactTV()" href="#other-3">Contact</a>
@@ -66,9 +67,16 @@
           <a class="nav-main-itmes" onmouseover="ComputerDrop()" href="#other-3">Computer</a>
           <a class="nav-main-itmes" onmouseover="DisplayDrop()" href="#other-3">Display</a>
           <a class="nav-main-itmes" onmouseover="ShopDrop()" href="#other-3">Shop</a>
+          <img src="Assets/Images/icons/person_black_36dp.svg" alt=""></img>
         </div>
         <!-- end of mobile view -->
-
+        <!-- <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Clients</a>
+          <a href="#">Contact</a>
+        </div> -->
         <div class="center">
           <!-- <video controls>
             <!-- <source class="main-vid" src="/Assets/Images/jens-kreuter-ngMtsE5r9eI-unsplash.jpg" type="video/mp4"> -->
@@ -118,4 +126,5 @@
 //<script src="Assets/scripts/scripts.js"></script>
 <script src="Assets/scripts/mobile.js"></script>
 <script src="/Assets/scripts/apidata.js"></script>
+<script src="/Assets/scripts/mobileView.js"></script>
 </html>
