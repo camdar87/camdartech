@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="Assets/style-sheets/style.css">
     <link rel="stylesheet" href="Assets/style-sheets/normalize.css">
     <link rel="stylesheet" href="Assets/style-sheets/MobileView.css">
-    <title>Main"name set to change"</title>
+    <title>Super Better Tech</title>
 </head>
 <body>
     <nav class="main-nav">
@@ -24,6 +24,7 @@
             <img src="Assets/Images/icons/search_black_36dp.svg" alt=""></img>
             <img src="Assets/Images/icons/shopping_cart_black_36dp.svg" alt=""></img>
             <img class="responsive-mobile" src="Assets/Images/icons/person_black_36dp.svg" alt=""></img>
+            <!-- open side menu only when screen is smaller -->
             <button id="side-menu-button-js" onclick="w3_open()">☰</button>
         </div>   
     </nav>
@@ -59,17 +60,24 @@
       </div>
       <main>
         <!-- for mobile view only -->
+        <!-- ----------------------------------------------------------------------- -->
+        <!--                           start of side menu                            -->
+        <!-- ----------------------------------------------------------------------- -->
+
         <div id="main-nav-menus-mobile-js" class="main-nav-menus-mobile" class="sidenav">
-          <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
-          <a class="nav-main-itmes" href="#home" class="active">Home</a>
-          <a class="nav-main-itmes" onmouseover="MobileDrop()" onmouseout="MobileOff()" href="#other-3">Mobile</a>
-          <a class="nav-main-itmes" onmouseover="ContactDrop()"   onmouseout="ContactTV()" href="#other-3">Contact</a>
-          <a class="nav-main-itmes" onmouseover="ApplianceDrop()" href="#other-3">Home Appliance</a>
-          <a class="nav-main-itmes" onmouseover="ComputerDrop()" href="#other-3">Computer</a>
-          <a class="nav-main-itmes" onmouseover="DisplayDrop()" href="#other-3">Display</a>
-          <a class="nav-main-itmes" onmouseover="ShopDrop()" href="#other-3">Shop</a>
+          <button onclick="w3_close()" class="close-side">Close &times;</button>
+          <a class="nav-main-itmes-side" href="#home" class="active">Home</a>
+          <a class="nav-main-itmes-side" onmouseover="MobileDrop()" onmouseout="MobileOff()" href="#other-3">Mobile</a>
+          <a class="nav-main-itmes-side" onmouseover="ContactDrop()"   onmouseout="ContactTV()" href="#other-3">Contact</a>
+          <a class="nav-main-itmes-side" onmouseover="ApplianceDrop()" href="#other-3">Home Appliance</a>
+          <a class="nav-main-itmes-side" onmouseover="ComputerDrop()" href="#other-3">Computer</a>
+          <a class="nav-main-itmesside" onmouseover="DisplayDrop()" href="#other-3">Display</a>
+          <a class="nav-main-itmes-side" onmouseover="ShopDrop()" href="#other-3">Shop</a>
           <img src="Assets/Images/icons/person_black_36dp.svg" alt=""></img>
         </div>
+        <!-- ----------------------------------------------------------------------- -->
+        <!--                            end of side menu                             -->
+        <!-- ----------------------------------------------------------------------- -->
 
         <div class="center">
            <!-- <video controls>

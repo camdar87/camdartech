@@ -50,10 +50,14 @@ a.a-site-main{
 .Side-menu-button{
   display: none;
 }
-.side-menu-button-js{
-outline: none;
-  background-color: #ffffff;
+.side-menu-list-side{
+  text-align: center;
 }
+#side-menu-button-js{
+  outline: none;
+    background-color: #ffffff;
+    display: none;
+  }
 
 .main-nav > div.other-nav-menus{
   display: flex;

@@ -3,24 +3,27 @@
     .main-nav > div.main-nav-menus{
         display: none;
     }
-    .main-nav-menus-mobile{
-        /* display: flex; */
-        flex-grow: 1;
-        justify-content: space-around;
-        align-self: center;
-        padding-right: 5%;
-        vertical-align: top;
-        padding-left: 3%;
-        display: none;
-    }
     .responsive-mobile{
         display: none;
     }
+    #side-menu-button-js{
+      outline: none;
+        background-color: #ffffff;
+        display: block;
+      }
   }
-
-
   /* test stuff */
 
+    #main-nav-menus-mobile-js{
+      display: none;
+      align-items: center;
+      background-color: black;
+      right: 15px;
+    }
+    .nav-main-itmes-side{
+      color: magenta;
+      text-decoration: none;
+    }
   
 
 
