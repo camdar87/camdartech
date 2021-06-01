@@ -50,6 +50,11 @@ a.a-site-main{
 .Side-menu-button{
   display: none;
 }
+.side-menu-button-js{
+outline: none;
+  background-color: #ffffff;
+}
+
 .main-nav > div.other-nav-menus{
   display: flex;
   flex-grow: 2;

@@ -24,7 +24,7 @@
             <img src="Assets/Images/icons/search_black_36dp.svg" alt=""></img>
             <img src="Assets/Images/icons/shopping_cart_black_36dp.svg" alt=""></img>
             <img class="responsive-mobile" src="Assets/Images/icons/person_black_36dp.svg" alt=""></img>
-            <button id="side-menu-button-js"><img src="/Assets/Images/icons/menu_black_36dp.svg" alt=""></img></button>
+            <button id="side-menu-button-js" onclick="w3_open()">☰</button>
         </div>   
     </nav>
     <div class="dropdown">
@@ -60,6 +60,7 @@
       <main>
         <!-- for mobile view only -->
         <div id="main-nav-menus-mobile-js" class="main-nav-menus-mobile" class="sidenav">
+          <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
           <a class="nav-main-itmes" href="#home" class="active">Home</a>
           <a class="nav-main-itmes" onmouseover="MobileDrop()" onmouseout="MobileOff()" href="#other-3">Mobile</a>
           <a class="nav-main-itmes" onmouseover="ContactDrop()"   onmouseout="ContactTV()" href="#other-3">Contact</a>
@@ -71,9 +72,9 @@
         </div>
 
         <div class="center">
-          <!-- <video controls>
-            <!-- <source class="main-vid" src="/Assets/Images/jens-kreuter-ngMtsE5r9eI-unsplash.jpg" type="video/mp4"> -->
-          </video> 
+           <!-- <video controls>
+             <source class="main-vid" src="/Assets/Images/jens-kreuter-ngMtsE5r9eI-unsplash.jpg" type="video/mp4"> 
+          </video>  -->
         </div>
         <div class="Main-mobile-page">
           <h2 class="mobile-title">Mobile</h2>
