@@ -198,12 +198,16 @@
 
     <script>
     
-    document.querySelector("form").addEventListener("click",function(event){
-    event.preventDefault();
+    document.querySelector("#submit_button").addEventListener("click", function(event){
+        event.preventDefault();
+            let name = document.querySelector("#name").value;
+            let mydiv = document.querySelector("#output_div");
+            
+            document.querySelector("#name").value = "";
+            console.log(output_div.value);
+
+
     });
-let name = document.querySelector("#name").value;
-let myDiv = document.querySelector("#output_div");
-myDiv.innerHTML += name + "<br>"
 </script>
 
     <!-- END OF QUESTION 5 -------------------------------------------------------------------------------->
