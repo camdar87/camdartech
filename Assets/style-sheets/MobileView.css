@@ -12,8 +12,29 @@
         display: block;
       }
   }
+  /* 1160 */
+  @media only screen and (max-width: 11) {
+    .main-nav > div.nav-main-text{
+      flex-grow: 1;
+      padding-left: 8%;
+    }
+
+  }
   /* test stuff */
 
+
+
+  .main-nav > div.main-nav-menus{
+    display: none;
+    }
+    .responsive-mobile{
+        display: none;
+    }
+    #side-menu-button-js{
+      outline: none;
+        background-color: #ffffff;
+        display: block;
+      }
     #main-nav-menus-mobile-js{
       display: none;
       align-items: center;
