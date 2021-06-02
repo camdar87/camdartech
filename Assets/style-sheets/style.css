@@ -33,16 +33,17 @@ a.a-site-main{
   }
   .main-nav > div.nav-main-text{
     flex-grow: 1;
-    padding-left: 8%;
+    padding-left: 1%;
+    width: 4%;
   }
   .main-nav > div.main-nav-menus{
     display: flex;
     flex-grow: 1;
     justify-content: space-around;
     align-self: center;
-    padding-right: 5%;
+    padding-right: 20%;
     vertical-align: top;
-    padding-left: 3%;
+    padding-left: 0.2%;
 }
 .main-nav-menus-mobile{
   display: none;
@@ -99,6 +100,7 @@ a.a-site-main{
   text-decoration: none;
   font-size: 17px;
   margin-left: 15px;
+  width: 70px;
 }
 .other-nav-menus .other-main-itmes {
   display: block;
@@ -112,7 +114,6 @@ a.a-site-main{
 .main-nav-menus a:hover {
   background-color: #333;
   color: #fff;
-  border-radius: 20px;
 }
 
 .other-nav-menus a:hover {
