@@ -226,7 +226,9 @@ a.other-main-itmes{
 .main-vid{
   width: 200px;
 }
-/* mobile gallery */
+/* -------------------------------------------------------------------------- */
+/*                               mobile gallery                               */
+/* -------------------------------------------------------------------------- */
 .mobile-title{
   text-align: center;
   font-family: 'PT Sans', sans-serif;
@@ -278,41 +280,26 @@ p.mobile-nav-itmes:hover{
 /* for setting default of the page it will be underline on load */
 #M-item-1{    
   text-decoration: underline;
-  border: dashed 2px black;
 }
 /* end for setting default of the page */
-.main-TV{
-  height: 700px;
+/* -------------------------------------------------------------------------- */
+/*                             mobile page and img                            */
+/* -------------------------------------------------------------------------- */
+.tv-nav{
+  display: flex;
   margin: auto;
-  width: 78%;
+  align-self: center;
+  vertical-align: top;
+  width: 37%;
+}
+.Second-tv-page{
+  height: 400px;
+  margin: auto;
+  width: 70%;
   padding: 10px;
-  margin-top: 5%;
+  margin-top: 20px;
 }
-.tv-img{
-  height: 700px;
-  width: 100%;
-  position: relative; 
-}
-
-h5{
-  position: absolute; 
-  top: 200px; 
-  left: 0; 
-  width: 100%; ;
- color: #73AD21
-}
-/* test */
-.image { 
-  position: relative; 
-  width: 100%; /* for IE 6 */
-}
-
-h6 { 
-  position: absolute; 
-  top: 10px; 
-  text-align: center;
-  width: 100%; 
-}
+ 
 
 
 /* -------------------------------------------------------------------------- */
