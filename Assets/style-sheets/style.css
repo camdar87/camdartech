@@ -229,7 +229,7 @@ a.other-main-itmes{
   margin-left: 15%;
   margin-right: 15%;
   height: 550px;
-  margin-top: 1%;
+  /* margin-top: 1%; */
   border: 3px solid #73AD21;
   padding-top: 1px;
 }
@@ -399,6 +399,81 @@ footer{
 }
 
 
+
+
+
+/* ----------------- imgs and boxs are same width as screen ----------------- */
+@media only screen and (max-width: 1438px) {
+  .main-nav > div.main-nav-menus{
+    display: none;
+}
+.responsive-mobile{
+    display: none;
+}
+#side-menu-button-js{
+  outline: none;
+    background-color: #ffffff;
+    display: block;
+  }
+  .main-nav > div.main-nav-menus{
+    display: none;
+    }
+    .responsive-mobile{
+        display: none;
+    }
+    #side-menu-button-js{
+      outline: none;
+        background-color: #ffffff;
+        display: block;
+      }
+    #main-nav-menus-mobile-js{
+      display: none;
+      align-items: center;
+      background-color: black;
+      right: 15px;
+    }
+    .nav-main-itmes-side{
+      color: magenta;
+      text-decoration: none;
+    }
+    .main-nav > div.icon-nav-menus{
+      display: flex;
+      flex-grow: 2;
+      align-self: center;
+      padding-left: 70%;
+      padding-right: 20px;
+      padding-bottom: 20px;
+      vertical-align: top;
+      /* margin-right: 2%; */
+    }
+    .main-nav > div.nav-main-text{
+      flex-grow: 1;
+      padding-left: 1%;
+      margin-left: 0%;
+    }
+
+    a.a-site-main{
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      font-size: 15px;
+    }
+    main{
+      /* background-color: #333; */
+    }
+    .center {
+      /* margin-left: 15%;
+      margin-right: 15%;
+      height: 550px;
+      /* margin-top: 1%; */
+      /* border: 3px solid #73AD21;
+      padding-top: 1px; */ 
+      width: 100%;
+      background-color: rgb(199, 199, 199);
+      margin: 0;
+      box-sizing: border-box;
+    }
+}
 @media only screen and (max-width: 600px) {
   .main-nav > div.main-nav-menus{
       display: none;
@@ -446,8 +521,13 @@ footer{
         margin-left: 2%;
         padding-left: 2%;
       }
+      .center {
+        width: 100%;
+        background-color: rgb(199, 199, 199);
+        margin: 0;
+        box-sizing: border-box;
+      }
 }
-
 @media only screen and (max-width: 1279px) {
   .main-nav > div.main-nav-menus{
     display: none;
@@ -495,6 +575,7 @@ footer{
       margin-left: 1%;
       padding-left: 1%;
     }
+  }
     @media only screen and (max-width: 1200px) {
       .main-nav > div.main-nav-menus{
         display: none;
@@ -532,8 +613,9 @@ footer{
           display: flex;
           flex-grow: 2;
           align-self: center;
-          /* padding-left: 2%;
-          padding-right: 20px; */
+          padding-left: 70%;
+          padding-right: 20px;
+          padding-bottom: 20px;
           vertical-align: top;
           /* margin-right: 2%; */
         }
@@ -542,15 +624,157 @@ footer{
           padding-left: 1%;
           margin-left: 0%;
         }
+
         a.a-site-main{
           text-decoration: none;
           color: black;
           font-weight: bold;
           font-size: 15px;
-      }
-
-
+        }
+        main{
+          /* background-color: #333; */
+        }
+        .center {
+          width: 100%;
+          background-color: rgb(199, 199, 199);
+          margin: 0;
+          box-sizing: border-box;
+        }
 }
+@media only screen and (max-width: 962px) {
+  .main-nav > div.main-nav-menus{
+    display: none;
+}
+.responsive-mobile{
+    display: none;
+}
+#side-menu-button-js{
+  outline: none;
+    background-color: #ffffff;
+    display: block;
+  }
+  .main-nav > div.main-nav-menus{
+    display: none;
+    }
+    .responsive-mobile{
+        display: none;
+    }
+    #side-menu-button-js{
+      outline: none;
+        background-color: #ffffff;
+        display: block;
+      }
+    #main-nav-menus-mobile-js{
+      display: none;
+      align-items: center;
+      background-color: black;
+      right: 15px;
+    }
+    .nav-main-itmes-side{
+      color: magenta;
+      text-decoration: none;
+    }
+    .main-nav > div.icon-nav-menus{
+      display: flex;
+      flex-grow: 2;
+      align-self: center;
+      padding-left: 0%;
+      padding-right: 20px;
+      padding-bottom: 20px;
+      vertical-align: top;
+      /* margin-right: 2%; */
+    }
+    .main-nav > div.nav-main-text{
+      flex-grow: 1;
+      padding-left: 0%;
+      padding-right: 65%;
+      margin-left: 1%;
+      width: 100%;
+    }
+
+    a.a-site-main{
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      font-size: 15px;
+    }
+    main{
+      /* background-color: #333; */
+    }
+    .center {
+      width: 100%;
+      background-color: rgb(199, 199, 199);
+      margin: 0;
+      box-sizing: border-box;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                                phone screens                               */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width: 375) {
+  .main-nav > div.main-nav-menus{
+    display: none;
+}
+.responsive-mobile{
+    display: none;
+}
+#side-menu-button-js{
+  outline: none;
+    background-color: #ffffff;
+    display: block;
+  }
+  .main-nav > div.main-nav-menus{
+    display: none;
+    }
+    .responsive-mobile{
+        display: none;
+    }
+    #side-menu-button-js{
+      outline: none;
+        background-color: #ffffff;
+        display: block;
+      }
+    #main-nav-menus-mobile-js{
+      display: none;
+      align-items: center;
+      background-color: black;
+      right: 15px;
+    }
+    .nav-main-itmes-side{
+      color: magenta;
+      text-decoration: none;
+    }
+    .main-nav > div.icon-nav-menus{
+      display: flex;
+      flex-grow: 2;
+      align-self: center;
+      /* padding-left: 2%;
+      padding-right: 20px; */
+      vertical-align: top;
+      /* margin-right: 2%; */
+      width: 100%;
+    }
+    .main-nav > div.nav-main-text{
+      flex-grow: 1;
+      padding-left: 1%;
+      margin-left: 0%;
+    }
+    .main-nav{
+      height: 2px;
+    }
+    a.a-site-main{
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      font-size: 15px;
+      width: 100%;
+  }
+  main{
+    background-color: rgb(190, 0, 0);
+  }
+  body{
+    width: 100%;
+  }
 }
 
 
