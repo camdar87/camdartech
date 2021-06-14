@@ -171,6 +171,7 @@ a.other-main-itmes{
   max-height: 0;
   position: absolute;
   transition: 0.3s;
+  display: none;
 }
 #exit-drop{
   margin-left: 100%;
@@ -288,6 +289,19 @@ p.mobile-nav-itmes:hover{
 .title-mobile-1{
   text-align: center;
   font-family: 'PT Sans', sans-serif;
+}
+/* Mobile itmes other than 1 are hidden on page load */
+.M-item-2{
+  display: none;
+}
+.M-item-3{
+  display: none;
+}
+.M-item-4{
+  display: none;
+}
+.M-item-5{
+  display: none;
 }
 /* for setting default of the page it will be underline on load */
 #M-item-1{    
@@ -428,7 +442,7 @@ footer{
       display: none;
       align-items: center;
       background-color: black;
-      right: 15px;
+      margin-left: 76%;
     }
     .nav-main-itmes-side{
       color: magenta;
