@@ -6,6 +6,10 @@ document.querySelectorAll(".mobile-nav-itmes").forEach(element => {
         });
         e.target.style.textDecoration = "underline";
         // e.target.style.border = "2px dashed #000000";
-        console.log (e.target.id)
+       document.querySelectorAll(".item_box").forEach(m => {
+           m.style.display = "none";
+       })
+        document.querySelector("."+e.target.id).style.display = "block";
+        
     })
 })

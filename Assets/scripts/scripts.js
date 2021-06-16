@@ -1,3 +1,4 @@
+console.log("imgs are fetched from here: https://camdarwebdata.herokuapp.com/") // console host img site 
 function MobileDrop() {
     let dropdown = document.getElementById("myDIV");
     dropdown.style.display = "none";

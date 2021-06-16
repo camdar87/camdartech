@@ -268,10 +268,9 @@ p.mobile-nav-itmes:hover{
   color: #828282;
 }
 .Second-moblie-page{
-  border: 5px solid green;
   height: 400px;
   margin: auto;
-  width: 30%;
+  width: 39%;
   padding: 10px;
   margin-top: 20px;
 }
@@ -280,7 +279,6 @@ p.mobile-nav-itmes:hover{
   height: 100%;
 }
 .Title-mobile{
-  border: 5px solid green;
   height: 50px;
   margin: auto;
   width: 40%;
@@ -288,7 +286,40 @@ p.mobile-nav-itmes:hover{
 }
 .title-mobile-1{
   text-align: center;
+  font-size: 40px;
+  font-weight: bold;
   font-family: 'PT Sans', sans-serif;
+}
+/* --------------------- showing buy now and learn more --------------------- */
+.mobile-nav-buy{
+  display: flex;
+  margin: auto;
+  align-self: center;
+  vertical-align: top;
+  width: 37%;
+}
+.mobile-nav-itmes-buy{
+  text-decoration:  none;
+  color: #474747;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px; 
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  font-weight: bold;
+  margin-bottom: 20%;
+}
+.mobile-nav-itmes-buy :nth-child(2){
+  text-decoration:  none;
+  color: #474747;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px; 
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  font-weight: bold;
+  background-color: green;
 }
 /* Mobile itmes other than 1 are hidden on page load */
 .M-item-2{
@@ -311,6 +342,9 @@ p.mobile-nav-itmes:hover{
 /* -------------------------------------------------------------------------- */
 /*                             mobile page and img                            */
 /* -------------------------------------------------------------------------- */
+.tv-title{
+  text-align: center;
+}
 .tv-nav{
   display: flex;
   margin: auto;
