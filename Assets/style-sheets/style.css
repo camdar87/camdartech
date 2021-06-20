@@ -196,6 +196,12 @@ a.other-main-itmes{
 .drop-down-options-3{
   display: none;
 }
+.M-main{
+  display: block;
+}
+.S-main{
+  display: none;
+}
 
 /* video box */
 .center {
