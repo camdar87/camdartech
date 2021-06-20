@@ -173,6 +173,42 @@ a.other-main-itmes{
   transition: 0.3s;
   display: none;
 }
+#myDIV-3 {
+  width: 100%;
+  /* padding: 250px; */
+  text-align: left;
+  background-color: white;
+  box-sizing: border-box;
+  transition: all 0.5s;
+  max-height: 0;
+  position: absolute;
+  transition: 0.3s;
+  display: none;
+}
+#myDIV-4 {
+  width: 100%;
+  /* padding: 250px; */
+  text-align: left;
+  background-color: white;
+  box-sizing: border-box;
+  transition: all 0.5s;
+  max-height: 0;
+  position: absolute;
+  transition: 0.3s;
+  display: none;
+}
+#myDIV-5 {
+  width: 100%;
+  /* padding: 250px; */
+  text-align: left;
+  background-color: white;
+  box-sizing: border-box;
+  transition: all 0.5s;
+  max-height: 0;
+  position: absolute;
+  transition: 0.3s;
+  display: none;
+}
 #exit-drop{
   margin-left: 100%;
   width: 20px;

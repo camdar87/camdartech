@@ -3,7 +3,7 @@ fetch('https://gist.githubusercontent.com/camdar87/7322961bf2282d41641ace3278690
 .then(data => {
     // let phoneData = supertechsitedata['MobileOne'];
     // phoneData.forEach(track => {
-        console.log(data,[0]);
+        console.log(data);
 
     })
 // });

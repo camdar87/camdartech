@@ -1,28 +1,22 @@
 console.log("imgs are fetched from here: https://camdarwebdata.herokuapp.com/") // console host img site 
-function MobileDrop() {
-    let dropdown = document.getElementById("myDIV");
-    dropdown.style.display = "none";
-}
-function MobileOff() {
-  let dropdown = document.getElementById("myDIV");
-    setTimeout(function(){ dropdown.style.display = "none"; }, 2000)
-    //dropdown.style.display = "none"
-}
-//tv
-function ContactDrop() {
-  let dropdown = document.getElementById("myDIV-2");
-  dropdown.style.display = "none";
-}
-function ContactTV() {
-let dropdown = document.getElementById("myDIV-2");
-  //dropdown.style.display = "none"
-  setTimeout(function(){ dropdown.style.display = "none"; }, 2000)
-}
+//used for drop down
+document.querySelectorAll(".nav-main-itmes").forEach(element => {
+  element.addEventListener("mouseover", e => {
+      document.querySelectorAll(".nav-main-itmes").forEach(el => {
+        //e.target.style.display = "none";
 
-function MobileDrop() {
-  let dropdown = document.getElementById("myDIV");
-  dropdown.style.display = "none";
-}
+
+      });
+      //e.target.style.textDecoration = "underline";
+      // e.target.style.border = "2px dashed #000000";
+     document.querySelectorAll(".item_box").forEach(m => {
+         m.style.display = "none";
+     })
+     // document.querySelector("."+e.target.id).style.display = "block";
+
+      
+  })
+})
 //mobile img and names
 
 
