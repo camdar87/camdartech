@@ -162,6 +162,26 @@ a.other-main-itmes{
   height: 80%;
   position: absolute;
 }
+.Drop-down-1 item-drop-down{
+  display: flex;
+  width: 100%;
+  text-align: left;
+  background-color: rgb(199, 199, 199);
+  /* background-color: white; */
+  box-sizing: border-box;
+  transition: all 0.5s;
+  /* max-height: 1; */
+  height: 80%;
+  position: absolute;
+}
+.Drop-down-1 item-drop-down > div{
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  width: 100%;
+}
+
 .Drop-down-1 > div {
   width: 100px;
   margin: 10px;
