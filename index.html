@@ -14,8 +14,33 @@
       
         <div class="nav-main-text"><a class="a-site-main" href="#main-text">SUPER BETTER TECH</a></div>
         <div class="main-nav-menus">
-          <a  id="Drop-item-1" class="nav-main-itmes" href="#other-3">Mobile</a>
-          <a  id="Drop-item-2" class="nav-main-itmes" href="#other-3">Home Appliance</a>
+          <div class="dropdown"> 
+            <a  id="Drop-item-1" class="nav-main-itmes" href="#other-3">Mobile</a>
+            <div class="dropdown-content"> 
+              <div class="row">
+                <div class="column">
+                  <h3>Category 1</h3>
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">ff 3</a>
+                </div>
+              </div> 
+            </div>
+          </div> 
+          <!-- item 2 -->
+          <div class="dropdown"> 
+            <a  id="Drop-item-2" class="nav-main-itmes" href="#other-3">Home Appliance</a>
+            <div class="dropdown-content"> 
+              <div class="row">
+                <div class="column">
+                  <h3>Category 1</h3>
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div> 
+            </div>
+          </div>
           <a  id="Drop-item-3" class="nav-main-itmes" href="#other-3">Computer</a>
           <a  id="Drop-item-4" class="nav-main-itmes" href="#other-3">Display</a>
           <a  id="Drop-item-5" class="nav-main-itmes" href="#other-3">Shop</a>
@@ -28,6 +53,8 @@
             <button id="side-menu-button-js" onclick="w3_open()">☰</button>
         </div>   
     </nav>
+
+
              <!-- for mobile view only -->
         <!-- ----------------------------------------------------------------------- -->
         <!--                           start of side menu                            -->
@@ -45,12 +72,15 @@
         <!-- ----------------------------------------------------------------------- -->
         <!--                            end of side menu                             -->
         <!-- ----------------------------------------------------------------------- -->
-          <!-- menu goes here -->
-    
-
       <!-- ----------------------------------------------------------------------- -->
       <!--                           start of main page                            -->
       <!-- ----------------------------------------------------------------------- -->
+
+      <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#news">News</a>
+
+      </div>
       <main>
         <div class="center">
            <video autoplay loop>
