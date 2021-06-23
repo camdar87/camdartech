@@ -162,19 +162,7 @@ a.other-main-itmes{
   height: 80%;
   position: absolute;
   display: block;
-}
-.Drop-item-2 dropdown-item{
-  display: flex;
-  width: 100%;
-  text-align: left;
-  background-color: rgb(199, 199, 199);
-  /* background-color: white; */
-  box-sizing: border-box;
-  transition: all 0.5s;
-  /* max-height: 1; */
-  height: 80%;
-  position: absolute;
-  display: block;
+  transition: 2s;
 }
 .dropdown-content {
   display: none;
@@ -185,6 +173,7 @@ a.other-main-itmes{
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   height: 70%;
+  transition: 2s;
 }
 .dropdown:hover .dropdown-content {
   display: block;
@@ -221,17 +210,12 @@ a.collum-style{
   font-size: 20px;
   text-align: center;
   font-family: 'PT Sans', sans-serif;
+  display: flex;
+  padding-left: 50px;
 }
-
-
-
-
-
-
-
-
-/* end of drop down test */
-
+.collum-style a:hover{
+  color: red;
+}
 /* video box */
 .center {
   margin-left: 15%;
@@ -250,6 +234,7 @@ video{
 /*                               mobile gallery                               */
 /* -------------------------------------------------------------------------- */
 .mobile-title{
+  padding-top: 5%;
   text-align: center;
   font-family: 'PT Sans', sans-serif;
   font-size: 40px;
@@ -270,7 +255,6 @@ video{
   margin: auto;
   font-weight: bold;
 }
-
 p.mobile-nav-itmes:hover{
   color: #828282;
 }
@@ -394,9 +378,6 @@ footer{
   font-weight: bold;
   
 }
- 
-
-
 /* -------------------------------------------------------------------------- */
 /*                                   Mobile                                   */
 /* -------------------------------------------------------------------------- */
