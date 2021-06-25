@@ -124,12 +124,51 @@
       <!--                           start of main page                            -->
       <!-- ----------------------------------------------------------------------- -->
       <main>
-        <div class="center">
-           <video autoplay>
-             <source class="main-vid" src="Assets/Images/pexels-nikita-ryumshin-7872729.mp4">
-             <source class="main-vid" src="Assets/Images/Android Phone with Green Screen _ Chroma Key.mp4">  
-          </video> 
-        </div>
+          <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <div class="center">
+                <video autoplay muted loop>
+                  <source class="main-vid" src="Assets/Images/pexels-jose-peguero-5770155.mp4">
+               </video> 
+               <div class="text" >Samsung S series </div>
+               <div class="text-22" >Just Come out </div>
+               <div class="text-3" >Buy now $40,00 Monthly over 36 months</div>
+             </div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <div class="center">
+                <video autoplay muted loop>
+                  <source class="main-vid" src="Assets/Images/Android Phone with Green Screen _ Chroma Key.mp4">
+               </video> 
+               <div class="text">Caption Three</div>
+             </div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <div class="center">
+                <video autoplay muted loop>
+                  <source class="main-vid" src="Assets/Images/Android Phone with Green Screen _ Chroma Key.mp4">
+               </video> 
+               <div class="text">Caption Three</div>
+             </div>
+            </div>
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            
+          </div>
         <!-- ----------------------------------------------------------------------- -->
         <!--                             mobile gallery                              -->
         <!-- ----------------------------------------------------------------------- -->
@@ -213,51 +252,131 @@
         <!-- ----------------------------------------------------------------------- -->
         <!--                               TV gallery                                -->
         <!-- ----------------------------------------------------------------------- -->    
-    <div class="Main-tv-page">
-      <h2 class="tv-title">TV</h2>
+        <div class="slideshow-container-2">
 
-      <div class="M-item-1">
-        <div class="tv-nav">
-          <p id="Tv-item-1" class="mobile-nav-itmes" href="text-1">2021 TV </p>
-          <p id="Tv-item-2" class="mobile-nav-itmes" href="none">LED 8K</p>
-          <p id="Tv-item-3" class="mobile-nav-itmes" href="none">LED 4K</p>
-          <p id="Tv-item-4" class="mobile-nav-itmes" href="none">Lifestyle</p>
-          <p id="Tv-item-5" class="mobile-nav-itmes" href="one">BIG SCREEN</p>
+          <div style="text-align:center">
+            <span class="dot-nav" onclick="currentSlide(1)">2021</span> 
+            <span class="dot-nav" onclick="currentSlide(2)">LED 8K</span> 
+            <span class="dot-nav" onclick="currentSlide(3)">LED 4K</span> 
+            <span class="dot-nav" onclick="currentSlide(4)">Lifestyle</span>
+            <span class="dot-nav" onclick="currentSlide(5)">Big screen</span>  
+          </div>
+          
+          <div class="mySlides-2 fade-2">
+            <div class="numbertext-2">1 / 3</div>
+            <div class="Second-moblie-page-2">
+              <div class="text-2">First look at 2021</div>
+              <div class="text-2-2">Discover more</div>
+              <div class="text-2-2-3"><a class="Link" href="https://www.youtube.com/">Watch video</a></div>
+              <img class="Second-m-img-2" src="/Assets/Images/04_galaxy_tab_s7_fe_mystic black_h_front.jpg" alt="">
+            </div>
+          </div>
+          <div class="mySlides-2 fade-2">
+            <div class="numbertext-2">2 / 3</div>
+            <div class="Second-moblie-page-2">
+              <img class="Second-m-img-2" src="/Assets/Images/pexels-max-vakhtbovych-6316065.jpg" alt="">
+            </div>
+            <div class="text-2">World class 8K</div>
+            <div class="text-2-2-4"><a class="Link-2" href="https://en.wikipedia.org/wiki/Main_Page">Learn more</a></div>
+            <div class="text-2-2-3"><a class="Link" href="https://www.youtube.com/">Watch video</a></div>
+          </div>
+          <div class="mySlides-2 fade-2">
+            <div class="numbertext-2">2 / 3</div>
+            <div class="Second-moblie-page-2">
+              <img class="Second-m-img-2" src="/Assets/Images/pexels-max-vakhtbovych-6523272.jpg" alt="">
+            </div>
+            <div class="text-2">New LED 4K</div>
+            <div class="text-2-2-4"><a class="Link-2" href="https://en.wikipedia.org/wiki/Main_Page">Learn more</a></div>
+            <div class="text-2-2-3"><a class="Link" href="https://www.youtube.com/">Watch video</a></div>
+          </div>
+          <div class="mySlides-2 fade-2">
+            <div class="numbertext-2">2 / 3</div>
+            <div class="Second-moblie-page-2">
+              <img class="Second-m-img-2" src="/Assets/Images/pexels-max-vakhtbovych-6527067.jpg" alt="">
+            </div>
+            <div class="text-2">Lifestyle</div>
+            <div class="text-2-2-4"><a class="Link-2 switch" href="https://en.wikipedia.org/wiki/Main_Page">Learn more</a></div>
+            <div class="text-2-2-3"><a class="Link" href="https://www.youtube.com/">Watch video</a></div>
+          </div>
+          <div class="mySlides-2 fade-2">
+            <div class="numbertext-2">2 / 3</div>
+            <div class="Second-moblie-page-2">
+              <img class="Second-m-img-2" src="/Assets/Images/pexels-max-vakhtbovych-6316063.jpg" alt="">
+            </div>
+            <div class="text-2 forth">Look at the bigger picture</div>
+            <div class="text-2-2-4"><a class="Link-2 switch" href="https://en.wikipedia.org/wiki/Main_Page">Learn more</a></div>
+            <div class="text-2-2-3"><a class="Link" href="https://www.youtube.com/">Watch video</a></div>
+          </div>
+          </div>
+          <br>
         </div>
-        <div class="Second-tv-page">
-          <img class="Second-m-img" src="/Assets/Images/jens-kreuter-ngMtsE5r9eI-unsplash.jpg" alt="">
-        </div>
-        <div class="Title-mobile">
-          <h2 class="title-mobile-1">Andriod phone 33</h2>
-        </div>
-      </div>
-    </div>
+        <!-- ----------------------------------------------------------------------- -->
+        <!--                               Home Stuff                                -->
+        <!-- ----------------------------------------------------------------------- -->
         
+        <div class="slideshow-container-3">
+
+          <div style="text-align:center">
+            <span class="dot-3" onclick="currentSlide2(1)">Family House</span> 
+            <span class="dot-3" onclick="currentSlide2(2)">Quick Drive</span> 
+            <span class="dot-3" onclick="currentSlide2(3)">Jet</span> 
+            <span class="dot-3" onclick="currentSlide2(4)">Add Watch</span> 
+            <span class="dot-3" onclick="currentSlide2(5)">Side by side</span> 
+          </div> 
+          <div class="mySlides-3 fade-3">
+            <div class="numbertext-2">2 / 3</div>
+            <div class="Second-moblie-page-2">
+              <img class="Second-m-img-2" src="/Assets/Images/pexels-mark-mccammon-1080721.jpg" alt="">
+            </div>
+            <div class="text-2 forth">More than just a fridge</div>
+            <div class="text-2-2-4"><a class="Link-2 switch" href="https://en.wikipedia.org/wiki/Main_Page">Learn more</a></div>
+            <div class="text-2-2-3"><a class="Link" href="https://www.youtube.com/">Watch video</a></div>
+          </div>
+          <div class="mySlides-3 fade-3">
+            <div class="numbertext-2">2 / 3</div>
+            <div class="Second-moblie-page-2">
+              <img class="Second-m-img-2" src="/Assets/Images/pexels-adrienne-andersen-2347642.jpg" alt="">
+            </div>
+            <div class="text-2 forth">Half the time for a full clean</div>
+            <div class="text-2-2-4"><a class="Link-2 switch" href="https://en.wikipedia.org/wiki/Main_Page">Learn more</a></div>
+            <div class="text-2-2-3"><a class="Link" href="https://www.youtube.com/">Watch video</a></div>
+          </div>
+          <div class="mySlides-3 fade-3">
+            <div class="numbertext-2">2 / 3</div>
+            <div class="Second-moblie-page-2">
+              <img class="Second-m-img-2" src="/Assets/Images/pexels-anete-lusina-4792771.jpg" alt="">
+            </div>
+            <div class="text-2 forth">Clean here there and anywhere</div>
+            <div class="text-2-2-4"><a class="Link-2 switch" href="https://en.wikipedia.org/wiki/Main_Page">Learn more</a></div>
+            <div class="text-2-2-3"><a class="Link" href="https://www.youtube.com/">Watch video</a></div>
+          </div>
+          <div class="mySlides-3 fade-3">
+            <div class="numbertext-2">2 / 3</div>
+            <div class="Second-moblie-page-2">
+              <img class="Second-m-img-2" src="/Assets/Images/pexels-curtis-adams-3935334.jpg" alt="">
+            </div>
+            <div class="text-2 forth">Meet the add watch family</div>
+            <div class="text-2-2-4"><a class="Link-2 switch" href="https://en.wikipedia.org/wiki/Main_Page">Learn more</a></div>
+            <div class="text-2-2-3"><a class="Link" href="https://www.youtube.com/">Watch video</a></div>
+          </div>
+          <div class="mySlides-3 fade-3">
+            <div class="numbertext-2">2 / 3</div>
+            <div class="Second-moblie-page-2">
+              <img class="Second-m-img-2" src="/Assets/Images/pexels-cleyder-duque-3637728.jpg" alt="">
+            </div>
+            <div class="text-2 forth">Same size more space</div>
+            <div class="text-2-2-4"><a class="Link-2 switch" href="https://en.wikipedia.org/wiki/Main_Page">Learn more</a></div>
+            <div class="text-2-2-3"><a class="Link" href="https://www.youtube.com/">Watch video</a></div>
+          </div>
+
+          </div>
+          </div>
+          <br>
+        </div>
         </main>
 
 
-<footer>
 
-  <div class="footer_column">
-    <!-- --------------------------- footer content 1 ---------------------------- -->
-    <div class="footer-column__item">
-      <div class="footer-content">
-        <li class="footer-list">Title</li>
-        <li class="footer-list">text</li>
-
-      </div>
-    </div>
-<!-- -------------------------- footer content 2 --------------------------- -->
-<div class="footer-column__item">
-  <div class="footer-content">
-    <li class="footer-list">Title</li>
-    <li class="footer-list">text</li>
-
-
-  </div>
-</div>
-
-  </div>
 </footer>
 
 
