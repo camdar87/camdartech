@@ -1,13 +1,38 @@
-fetch('https://gist.githubusercontent.com/camdar87/7322961bf2282d41641ace32786905a0/raw/860d430c19c1dd7ee0e918f9a0bf2e61ff43ac64/supertechsitedata')
-.then(res => res.json())
-.then(data => {
-    // let phoneData = supertechsitedata['MobileOne'];
-    // phoneData.forEach(track => {
-        console.log(data);
-
-    })
-// });
+// $(document).ready(function() {
 
 
 
 
+//     $.getJSON ( "https://gist.githubusercontent.com/camdar87/7d26ddd989219f18e5907991158cddd8/raw/5866487f5f89a379b4e11b08ff6897c70a5c3be5/test",  function(data) {
+
+
+
+
+//         //append data to site form json link.
+//         //most of this file uses jqury
+
+//         $.each(data.MobileOne, function(i,f) {
+//             $("#ImgTarget").prepend("<ul><br>   Title: " +  f.type + f.img + " / > </ul>  ");
+
+//            });
+        
+
+
+//             $.each(data.rap, function(i,f) {
+//               $("#Rap_MM").prepend("<ul><br>   Title: " +  f.title+ "<br> Artist: " + f.Artist + "<br> Lastplayed: " + f.times_lastplyed + "<br> "  + "<br><a id=button href='" + f.ytlink +"'>Play on youtube</a></br> "+  "<br><img id=the_i src=../Assets/DataImage/" + f.img + " / > </ul>  ");
+ 
+//              });
+
+
+//              $.each(data.Rock, function(i,f) {
+//                 $("#ImgTarget").prepend("<ul><br>   Title: " +  f.title+ "<br> Artist: " + f.Artist + "<br> Lastplayed: " + f.times_lastplyed + "<br> "  + "<br><a id=button href='" + f.ytlink +"'>Play on youtube</a></br> "+  " "  + "<br><a id=button href='" + f.ytlink +"'>Play on Spotify </a></br> "+ "<br><img id=the_i src=../Assets/DataImage/" + f.img + " / > </ul>  ");
+   
+//                }); 
+
+//             $.each(data.recent, function(i,f) {
+//                 $("#recent").prepend("<ul><br>   Title: " +  f.title+ "<br> Artist: " + f.Artist + "<br> Lastplayed: " + f.times_lastplyed + "<br> "  + "<br><a id=button href='" + f.ytlink +"'>Play on youtube</a></br> "+  " "  + "<br><a id=button href='" + f.ytlink +"'>Play on Spotify </a></br> "+ "<br><img id=the_i src=../Assets/DataImage/" + f.img + " / > </ul>  ");
+   
+//                });
+
+//         });
+//     })

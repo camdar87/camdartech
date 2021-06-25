@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="Assets/style-sheets/normalize.css">
     <link rel="stylesheet" href="Assets/style-sheets/MobileView.css">
     <link rel="stylesheet" href="Assets/style-sheets/style.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <title>Super Better Tech</title>
 </head>
 <body>
@@ -130,7 +131,7 @@
               <div class="numbertext">1 / 3</div>
               <div class="center">
                 <video autoplay muted loop>
-                  <source class="main-vid" src="Assets/Images/pexels-jose-peguero-5770155.mp4">
+                  <source class="main-vid" src="https://camdarwebdata.herokuapp.com/stuff/pexels-jose-peguero-5770155.mp4">
                </video> 
                <div class="text" >Samsung S series </div>
                <div class="text-22" >Just Come out </div>
@@ -142,7 +143,7 @@
               <div class="numbertext">2 / 3</div>
               <div class="center">
                 <video autoplay muted loop>
-                  <source class="main-vid" src="Assets/Images/Android Phone with Green Screen _ Chroma Key.mp4">
+                  <source class="main-vid" src="https://camdarwebdata.herokuapp.com/stuff/pexels-nikita-ryumshin-7872729.mp4">
                </video> 
                <div class="text">Caption Three</div>
              </div>
@@ -152,7 +153,7 @@
               <div class="numbertext">3 / 3</div>
               <div class="center">
                 <video autoplay muted loop>
-                  <source class="main-vid" src="Assets/Images/Android Phone with Green Screen _ Chroma Key.mp4">
+                  <source class="main-vid" src="https://camdarwebdata.herokuapp.com/stuff/Android%20Phone%20with%20Green%20Screen%20_%20Chroma%20Key.mp4">
                </video> 
                <div class="text">Caption Three</div>
              </div>
@@ -185,7 +186,7 @@
           <div class="M-item-1 item_box">
             <!-- imgs will be replaced with api fetched img to save space -->
             <div class="Second-moblie-page">
-              <img class="Second-m-img" src="/Assets/Images/01_galaxys21_ultra_phantom_silver_front.jpg" alt=""> 
+              <img class="Second-m-img" id="ImgTarget" src="/Assets/Images/01_galaxys21_ultra_phantom_silver_front.jpg" alt=""> 
             </div>
             <div class="Title-mobile">
               <h2 class="title-mobile-1">Samsung S21 Ultra</h2>
@@ -198,7 +199,7 @@
           <!-- ------------------------------- item 2 -------------------------------- -->
           <div class="M-item-2 item_box">
             <div class="Second-moblie-page">
-              <img class="Second-m-img" src="/Assets/Images/charles-deluvio-leqrylJNYUQ-unsplash (2).jpg" alt="">
+              <img class="Second-m-img" id="ImgTarget" src="/Assets/Images/charles-deluvio-leqrylJNYUQ-unsplash (2).jpg" alt="">
             </div>
             <div class="Title-mobile">
               <h2 class="title-mobile-1">Iphone</h2>
@@ -211,7 +212,7 @@
           <!-- ------------------------------- item 3 -------------------------------- -->
           <div class="M-item-3 item_box">
             <div class="Second-moblie-page">
-              <img class="Second-m-img" src="/Assets/Images/01_galaxys21_ultra_phantom_silver_front.jpg" alt="">
+              <img class="Second-m-img" id="ImgTarget" src="/Assets/Images/01_galaxys21_ultra_phantom_silver_front.jpg" alt="">
             </div>
             <div class="Title-mobile">
               <h2 class="title-mobile-1">Andriod phone</h2>
@@ -224,7 +225,7 @@
           <!-- ------------------------------- item 3 -------------------------------- -->
           <div class="M-item-4 item_box">
             <div class="Second-moblie-page">
-              <img class="Second-m-img" src="/Assets/Images/charles-deluvio-leqrylJNYUQ-unsplash (2).jpg" alt="">
+              <img class="Second-m-img" id="ImgTarget" src="/Assets/Images/charles-deluvio-leqrylJNYUQ-unsplash (2).jpg" alt="">
             </div>
             <div class="Title-mobile">
               <h2 class="title-mobile-1">Google pixel</h2>
@@ -237,7 +238,7 @@
           <!-- ------------------------------- item 5 -------------------------------- -->
           <div class="M-item-5 item_box">
             <div class="Second-moblie-page">
-              <img class="Second-m-img" src="/Assets/Images/04_galaxyzfold2_mysticbronze_front115.jpg" alt="">
+              <img class="Second-m-img" id="ImgTarget" src="/Assets/Images/04_galaxyzfold2_mysticbronze_front115.jpg" alt="">
             </div>
             <div class="Title-mobile">
               <h2 class="title-mobile-1">Galaxy Z Fold2</h2>
@@ -248,7 +249,6 @@
             </div>
           </div>
         </div>
-
         <!-- ----------------------------------------------------------------------- -->
         <!--                               TV gallery                                -->
         <!-- ----------------------------------------------------------------------- -->    
@@ -383,8 +383,8 @@
     
 
 </body>
-<script src="Assets/scripts/scripts.js"></script>
-<script src="Assets/scripts/mobile.js"></script>
-<script src="/Assets/scripts/apidata.js"></script>
-<script src="/Assets/scripts/mobileView.js"></script>
+<script src="/Assets/scripts/apidata.js" async defer></script>
+<script src="Assets/scripts/scripts.js" async defer></script>
+<script src="Assets/scripts/mobile.js" async defer></script>
+<script src="/Assets/scripts/mobileView.js" async defer></script>
 </html>
